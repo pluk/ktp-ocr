@@ -1,0 +1,6 @@
+aiohttp
+asyncio
+pytesseract
+numpy
+opencv-python
+imutils
