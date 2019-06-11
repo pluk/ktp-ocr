@@ -97,7 +97,7 @@ def parse_image(data):
 
     transformed_nik = process_before_recognize(image, coord['nik'])
 
-    t_nik = recognize(transformed_nik, 'ind')
+    t_nik = recognize(transformed_nik, 'nik')
 
     return {
         'nik': t_nik
@@ -141,7 +141,7 @@ if __name__ == '__main__':
 
     transformed_nik = process_before_recognize(image, coord['nik'])
 
-    t_nik = recognize(transformed_nik, 'ind')
+    t_nik = recognize(transformed_nik, 'nik')
 
     print('nik: ' + t_nik)
 
